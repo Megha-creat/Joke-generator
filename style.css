@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:linear-gradient(white,pink);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  max-width: 500px;
+  padding: 30px;
+  background-color:linear-gradient(white,pink);
+  width: 100%;
+  animation: fadeIn 0.5s ease-in;
+  box-shadow: 0 12px 24px rgb(136, 20, 40);
+}
+
+h1 {
+  color: rgb(136, 20, 40);
+}
+
+.joke-box {
+  margin: 20px 0;
+  font-size: 18px;
+  color: rgb(179, 41, 133);
+  min-height: 80px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:rgb(231, 129, 146);
+  color: rgb(17, 1, 12);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgb(136, 20, 40);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:rgb(136, 20, 40);
+}
