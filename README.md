@@ -1,4 +1,5 @@
 # Joke Generator App 😄
+direct view - https://megha-creat.github.io/Joke-generator/
 
 A fun and simple web app that displays random jokes with a click of a button. Built using **HTML**, **CSS**, and **JavaScript**, and powered by a public joke API.
 
